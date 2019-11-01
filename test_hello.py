@@ -16,7 +16,7 @@ class HelloTests(unittest.TestCase):
         # mocked function
         args, kwargs = mock_print.call_args
 
-        # Make sure it print the correct string
+        # Make sure it prints the correct string
         self.assertEqual(args, ('Hello, World!',))
 if __name__ == '__main__':
     unttest.main()
