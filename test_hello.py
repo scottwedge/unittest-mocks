@@ -18,5 +18,6 @@ class HelloTests(unittest.TestCase):
 
         # Make sure it prints the correct string
         self.assertEqual(args, ('Hello, World!',))
+
 if __name__ == '__main__':
-    unttest.main()
+    unittest.main()
